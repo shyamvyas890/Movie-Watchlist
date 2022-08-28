@@ -1,0 +1,241 @@
+html,body{
+    margin:0;
+    padding:0;
+    margin:auto;
+    max-width:550px;
+    font-family: 'Inter', sans-serif;
+}
+
+#finder, #finder1{
+margin:auto;
+width: 550px;
+height: 208px;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-image:url("images/ancientmoviepics.jpg");
+
+}
+#find, #find1{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+color:white;
+font-weight: 800;
+font-size: 42.7947px;
+line-height: 24px;
+}
+
+#watchlist, #watchlist1{
+width: 114px;
+/* height: 20px; */
+color:white;
+background:none;
+border:none;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+cursor:pointer;
+
+}
+
+#explore, #explore1{
+    width:550px;
+    height:571px;
+    margin:auto;
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#startexploring, #startexploring1{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+
+text-align: center;
+margin-top:15px;
+color: #DFDDDD;
+}
+
+#searchBar{
+    display:flex;
+    justify-content: center;
+    align-items:stretch;
+    width:460px;
+    height:38px;
+    position:absolute;
+    top:300px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border:0;
+
+}
+
+
+#searchIcon{
+    align-items: stretch;
+    width:41px;
+    background-image:url("images/searchIcon.jpg");
+    background-size:25px 25px;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#searcher{
+    width:301px;
+    align-items: stretch;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+border:none;
+    
+}
+#searchButton{
+width:120px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #374151;
+border: 1px solid #D1D5DB;
+align-items:stretch;
+border:none;
+border: none;
+border-radius: 0px 6px 6px 0px;
+margin:0;
+padding:0;
+cursor:pointer;
+}
+
+.movie-picture {
+    width:99px;
+    height:147px;
+}
+
+.title {
+    /* height:20px; */
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+color:black;
+margin-right:4px;
+}
+
+.minutes, .genre, .watchlist, .review {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #111827;
+
+}
+.watchlist{
+    margin-left:3px;
+}
+
+.watchlistDiv {
+    width:73px;
+    height:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchlistButton {
+    width:15px;
+    height:14px;
+    background: #111827;
+    margin-right: 3px;
+    background-image:url("images/plusIcon.jpg");
+    background-size:15px 15px;
+    cursor:pointer;
+    border-radius: 50%;
+    border:none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.starPic {
+    background: #FEC654;
+border-radius: 0.75px;
+width:15px;
+height:15px;
+margin-right:4px;
+margin-left:4px;
+}
+
+.description {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #6B7280;
+text-align:justify;
+margin:0;
+margin-top:5px;
+}
+
+.movieBoxDiv {
+    width:462px;;
+    /* height:147px; */
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:auto;
+    margin-top:30px;
+
+
+   
+}
+
+.movieInfoDiv {
+    margin-left:10px;
+    width:342px;
+}
+
+.details {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px;
+}
+
+.titleAndReviewsDiv {
+    display:flex;
+    width:342px;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+
+
+
+
