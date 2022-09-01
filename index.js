@@ -8,6 +8,10 @@ let selectedIDs=[];
 let posts= document.getElementById("posts");
 const APIkey=`2a3bd44d`;
 async function getMovieTitleData(){
+    explore.style.display="flex";
+    exploreImage.style.display="none";
+    startExploring.textContent="Loading results......";
+    
     const fetchQueryBasic= `https://www.omdbapi.com/?s=${searcher.value.replaceAll(' ',"+")}&plot=full&apikey=${APIkey}`;
     searcher.value='';
     
